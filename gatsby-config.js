@@ -6,5 +6,9 @@ module.exports = {
     title: `FirstTry`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-provide-react`,
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
